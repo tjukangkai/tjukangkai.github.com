@@ -14,14 +14,14 @@
 			<div id="logo">
 				<h1><a href="#"><span>康凯</span> Kang Kai</a></h1>
 			</div>
-			<div id="menu" style="display:none;">
+			<div id="menu" style="display:block;">
 				<ul>
-					<li class="current_page_item"><a href="#">Home</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Photos</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#introduction">个人简介</a></li>
+					<li><a href="#education">教育背景</a></li>
+					<li><a href="#workexp">工作经验</a></li>
+					<li><a href="#projectexp">项目经验</a></li>
+					<li><a href="#publications">发表论文</a></li>
+					<li><a href="#patents">发明专利</a></li>
 				</ul>
 			</div>
 		</div>
@@ -29,18 +29,18 @@
 	<!-- end #header -->
 	<div id="page">
 		<div id="content">
-			<div class="post">
-				<h3 class="title"><a href="#">联系方式</a></h3>
+			<div class="post" id="introduction">
+				<h3 class="title"><a href="#">个人简介</a></h3>
 				<div class="entry">
-					<p><strong>邮箱&nbsp;</strong><a href="#" target="_blank">kangk(at)tju.edu.cn</a></p>
-					<p><strong>微博&nbsp;</strong><a href="http://weibo.com/tjukk" target="_blank">http://weibo.com/tjukk</a></p>
+					<p>天津大学硕士研究生在读，IEEE Student Member，2012年获得天津大学学士学位。在学期间参加十二五国家科技支撑计划重点项目一项，国家大学生创新性实验计划一项，获得发明专利一项。多次获得天津大学三好学生，天津大学软件学院三好学生等荣誉。</p>
 				</div>
 			</div>
-			<div class="post">
+			<div class="post" id="education">
 				<h3 class="title"><a href="#">教育背景</a></h3>
 				<div class="entry">
-					<p>2015.01&nbsp;<a href="#">天津大学 国家示范性软件学院 软件工程 硕士学位</a></p>
+					<p>2015.01&nbsp;<a href="#">天津大学 国家示范性软件学院 软件工程 硕士学位（在读）</a></p>
 					<div class="marginleft">
+						<p>研究兴趣：信息可视化与可视分析</p>
 						<p>导师：<a href="http://scs.tju.edu.cn/faculty/jwzhang/" target="_blank">天津大学 国家示范性软件学院 副院长 张加万教授</a></p>
 						<p>实验室：<a href="http://graphics.tju.edu.cn/Graphics/shou_ye/shou_ye.html" target="_blank">天津大学计算机图形图像与可视计算实验室</a> 天津大学文化遗产保护与传承信息技术研究中心</p>
 					</div>
@@ -48,7 +48,7 @@
 				</div>
 			</div>
 			
-			<div class="post">
+			<div class="post" id="workexp">
 				<h3 class="title"><a href="#">工作经验</a></h3>
 				<div class="entry">
 					<p>2012.03- 现在&nbsp;<a href="#">宠物志-联合创始人&研发工程师 </a><a href="http://www.chongwuzhi.com/" target="_blank">http://www.chongwuzhi.com/</a> </p>
@@ -74,7 +74,7 @@
 				</div>
 			</div>
 
-			<div class="post">
+			<div class="post" id="projectexp">
 				<h3 class="title"><a href="#">项目经验</a></h3>
 				<div class="entry">
 					<p>2012.09-现在&nbsp;<a href="#">世界文化遗产地风险预控关键技术研究与示范项目之课题五</a> </p>
@@ -99,8 +99,7 @@
 					<p>2010.10-2011.09&nbsp;<a href="#">国家大学生创新性实验计划</a> </p>
 					<div class="marginleft">
 						<p>在1个月的时间内阅读可视化分析顶级会议VAST，InfoVis，IV的所有相关论文，团队合作撰写了一篇论文。</p>
-						<p>同时开发了对应的网络安全可视化软件</p>
-						<p>专利已受理。</p>
+						<p>同时开发了对应的网络安全可视化软件，并申请了中国发明专利。</p>
 					</div>
 				</div>
 				<div class="entry">
@@ -120,10 +119,33 @@
 				</div>
 			</div>
 
+			
+			<div class="post" id="publications">
+				<h3 class="title"><a href="#">发表论文</a></h3>
+				<div class="entry">
+				</div>
+			</div>
+			
+			
+			<div class="post" id="patents">
+				<h3 class="title"><a href="#">发明专利</a></h3>
+				<div class="entry">
+					<p>CN201310010198.7 一种基于可视分析的网站异常访问行为的检测方法[pending]</p>
+				</div>
+			</div>
+
 		</div>
 		<!-- end #content -->
-		<div id="sidebar" style="display:none;">
+		<div id="sidebar" style="display:block;">
 			<ul>
+				<li>
+					<h3>联系方式</h3>
+					<ul>
+						<li><strong>邮箱&nbsp;</strong><a href="#">kangk(at)tju.edu.cn</a></li>
+						<li><strong>微博&nbsp;</strong><a href="http://weibo.com/tjukk" target="_blank">http://weibo.com/tjukk</a></li>
+					</ul>
+				</li>
+				<!--
 				<li>
 					<h3>Search</h3>
 					<div id="search" >
@@ -173,6 +195,7 @@
 						<li><a href="#">Proin gravida orci porttitor</a></li>
 					</ul>
 				</li>
+				-->
 			</ul>
 		</div>
 		<!-- end #sidebar -->
